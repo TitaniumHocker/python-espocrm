@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "espo"
+version = "0.1.0"
+description = "Python client for EspoCRM"
+authors = ["Ivan Fedorov <i@ifedorov.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+black = "^24.2.0"
+isort = "^5.13.2"
+ruff = "^0.2.2"
+ipython = "^8.22.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
